@@ -16,6 +16,9 @@ Make sure to install all packages in ``requirements.txt``. If needed, change ``D
 1. Download and prepare dataset: ``python ACDC_prepare.py``
 1. Train SADM: ``python SADM.py``
 
+ViVit code has been modified from [rishikksh20's code](https://github.com/rishikksh20/ViViT-pytorch), and DDPM has been modified from [TeaPearce's code](https://github.com/TeaPearce/Conditional_Diffusion_MNIST).
+
+
 ## Citation
 
 ````

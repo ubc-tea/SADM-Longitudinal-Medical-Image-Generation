@@ -22,7 +22,7 @@ ViVit code has been modified from [rishikksh20's code](https://github.com/rishik
 ## Citation
 
 ````
-@@InProceedings{yoon2022sadm,
+@InProceedings{yoon2022sadm,
   title={SADM: Sequence-Aware Diffusion Model for Longitudinal Medical Image Generation},
   author={Yoon, Jee Seok and Zhang, Chenghao and Suk, Heung-Il and Guo, Jia and Li, Xiaoxiao},
   booktitle={Information Processing in Medical Imaging},

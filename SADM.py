@@ -9,6 +9,9 @@ import numpy as np
 DATA_DIR = "./data"
 RESULT_DIR = "./results"
 
+assert os.path.isdir(DATA_DIR), f"{DATA_DIR} is not a directory."
+assert os.path.isdir(RESULT_DIR), f"{RESULT_DIR} is not a directory."
+
 
 def train():
     device = torch.device("cuda")

@@ -9,7 +9,7 @@ Human organs constantly undergo anatomical changes due to a complex mix of short
 
 
 ## Usage
-Currently, this repository only contains the minimal code for training and validation.
+Currently, this repository only contains the minimal and enssential code for training and validation (meaning it won't produce the same outcomes as detailed in the paper). We are in the process of cleaning up our internal code for the general public (e.g., removing multi-GPU coding designed for our cluster). In the mean time, changing [``n_epoch=300``](https://github.com/ubc-tea/SADM-Longitudinal-Medical-Image-Generation/blob/main/SADM.py#L17) should get a similar result as the paper. We applogize for the inconvience, and we will update the code as soon as possible. Please stay tuned!
 ### Setup
 Make sure to install all packages in ``requirements.txt``. If needed, change ``DATA_DIR`` and ``RESULT_DIR`` in SADM.py and ACDC_prepare.py.
 ### Training and Validation
